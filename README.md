@@ -94,3 +94,23 @@ App
 - **Why?**
   - Starts a timeout for `onTimeout` when the timer begins.
   - Updates the remaining time at a 100ms interval.
+
+## 🛠 Customizing the Questions
+
+We have a `questions.js` file that contains all quiz questions. Each question consists of a `text` (the question itself) and an `answers` array. **The first answer in the array is always the correct one**, so when modifying the questions, make sure the correct answer remains the first item.
+
+### Example Structure:
+```js
+// The first item of each answers array is the correct one
+// the answers are shuffled in app so the first item is not the correct one in app.
+{
+    id: 'q1',
+    text: 'Which of the following definitions best describes React.js?',
+    answers: [
+    'A library to build user interfaces with help of declarative code.',
+    'A library for managing state in web applications.',
+    'A framework to build user interfaces with help of imperative code.',
+    'A library used for building mobile applications only.',
+    ],
+}
+```
