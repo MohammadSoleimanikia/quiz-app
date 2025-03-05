@@ -86,7 +86,7 @@ App
 ### `useCallback`
 - **Used in**: `Quiz.jsx`
 - **Why?**
-  - Optimizes `handleSelectAnswer` and `handleSkipAnswer` so they do not get recreated unnecessarily on re-renders.
+  - Optimizes `handleSelectAnswer` and `handleSkipAnswer` so they do not get recreated unnecessarily on re-renders cause these functions are used into dependency array.
 
 ### `useRef`
 - **Used in**: `Answers.jsx`
