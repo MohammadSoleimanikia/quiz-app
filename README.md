@@ -1,6 +1,10 @@
 # Quiz app with react
 ## 📖 Overview
 This is a React-based Quiz App that allows users to answer multiple-choice questions with a timer. The app tracks user responses and displays a summary at the end. It dynamically updates based on user input and provides immediate feedback on correct and incorrect answers. 
+## Screenshot 
+![Quiz](./public/screenshot.png)
+![Quiz](./public/screenshotA.png)
+
 ## 🌳Component tree
 App
 ├──Header
